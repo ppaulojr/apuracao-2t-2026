@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="30">
+<title>Apuração 2º turno</title><style>
+:root{--bg:#fff;--fg:#111;--mudo:#666;--cartao:#f3f4f6;--ok:#0a7d33;--aviso:#b45309;
+--ruim:#b91c1c;--linha:#2563eb;--grade:#d1d5db}
+@media (prefers-color-scheme:dark){:root{--bg:#111418;--fg:#eceff3;--mudo:#9aa3af;
+--cartao:#1b2027;--ok:#4ade80;--aviso:#fbbf24;--ruim:#f87171;--linha:#60a5fa;--grade:#374151}}
+*{box-sizing:border-box}
+body{margin:0;padding:16px;background:var(--bg);color:var(--fg);
+font:16px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:560px;margin-inline:auto}
+h1{font-size:18px;margin:0 0 4px}
+.sub{color:var(--mudo);font-size:14px;margin:0 0 12px}
+.cartao{background:var(--cartao);border-radius:12px;padding:14px;margin:0 0 12px}
+.grande{font-size:44px;font-weight:700;line-height:1.1}
+.par{display:flex;gap:12px}.par>div{flex:1}
+.nome{font-size:14px;color:var(--mudo)}.num{font-size:28px;font-weight:700}
+.mudo{color:var(--mudo);font-size:14px}
+.ok{color:var(--ok)}.aviso{color:var(--aviso)}.ruim{color:var(--ruim)}
+.faixa{display:inline-block;padding:2px 10px;border-radius:99px;background:var(--bg);
+font-size:14px;font-weight:600;margin-top:4px}
+.alerta{background:#b91c1c;color:#fff;border-radius:12px;padding:14px;margin:0 0 12px;
+font-weight:600}
+.alerta[hidden]{display:none}
+svg{width:100%;height:auto;font-size:9px;fill:var(--mudo)}
+.grade{stroke:var(--grade);stroke-width:.5}.meio{stroke:var(--mudo);stroke-width:.8;
+stroke-dasharray:3 2}.linha{fill:none;stroke:var(--linha);stroke-width:2}
+circle{fill:var(--linha)}
+</style></head>
+<body><h1>Apuração · 2º turno 2026</h1>
+<p class="sub">Observatório · projeção, não resultado oficial</p>
+<div id="alerta" class="alerta" data-leitura="2026-10-15T10:50:49-03:00" data-limite="300" data-encerrado="1" hidden>ATENÇÃO: a última leitura do TSE com sucesso foi às <b>10:50:49</b> (há mais de 5 min). Os números podem estar desatualizados.</div><p class="cartao aviso"><b>TESTE: dados do 1º turno</b> (04/10). Não é a apuração do 2º turno.</p><p class="cartao"><b>Apuração encerrada:</b> 100% das seções apuradas.</p>
+<div class="cartao"><div class="mudo">Seções apuradas</div>
+<div class="grande">100,00%</div>
+<div class="mudo">499,182 de 499,206</div></div>
+<div class="cartao"><div class="mudo">Resultado final</div>
+<div class="grande">Flavio Bolsonaro</div>
+<p class="mudo">Margem apurada (Flavio Bolsonaro − Lula):
+<b>+2,0 p.p.</b>
+(vantagem de 2.03 p.p. nos votos válidos). Apuração encerrada: sem
+intervalo nem probabilidade.</p></div>
+<div class="cartao"><div class="mudo">Votos válidos apurados</div>
+<div class="par"><div><div class="nome">Flavio Bolsonaro</div><div class="num">51,01%</div></div><div><div class="nome">Lula</div><div class="num">48,99%</div></div></div></div>
+<div class="cartao"><div class="mudo">Probabilidade de Flavio Bolsonaro na apuração</div>
+<svg viewBox="0 0 320 150" role="img" aria-label="Probabilidade ao longo da apuração"><line x1="28" x2="312" y1="138.0" y2="138.0" class="grade"/><text x="24" y="141.0" text-anchor="end">0%</text><line x1="28" x2="312" y1="106.5" y2="106.5" class="grade"/><text x="24" y="109.5" text-anchor="end">25%</text><line x1="28" x2="312" y1="75.0" y2="75.0" class="meio"/><text x="24" y="78.0" text-anchor="end">50%</text><line x1="28" x2="312" y1="43.5" y2="43.5" class="grade"/><text x="24" y="46.5" text-anchor="end">75%</text><line x1="28" x2="312" y1="12.0" y2="12.0" class="grade"/><text x="24" y="15.0" text-anchor="end">100%</text><text x="28.0" y="149" text-anchor="middle">0%</text><text x="99.0" y="149" text-anchor="middle">25%</text><text x="170.0" y="149" text-anchor="middle">50%</text><text x="241.0" y="149" text-anchor="middle">75%</text><text x="312.0" y="149" text-anchor="middle">100%</text><polyline points="28.3,135.1 28.5,75.6 28.6,77.0 28.8,75.3 29.0,72.4 29.3,72.1 29.6,63.4 29.9,58.0 30.2,56.5 30.4,58.7 30.7,53.1 31.0,47.2 31.2,46.3 31.5,46.1 31.8,45.0 32.0,41.2 32.3,40.3 32.6,38.5 32.8,39.3 33.1,38.7 33.6,39.8 34.2,36.8 34.8,37.3 35.3,33.9 35.9,29.8 36.4,28.1 37.5,24.0 38.3,24.1 39.1,20.1 39.9,19.8 40.7,19.9 41.5,18.2 42.9,16.0 44.0,16.5 45.1,15.8 46.1,14.9 47.3,14.1 48.3,13.5 49.4,13.6 50.5,13.4 51.9,13.3 53.2,12.8 54.6,13.1 56.0,12.6 57.5,12.4 59.2,12.6 60.9,12.4 62.5,12.6 64.2,12.3 65.8,12.4 67.4,12.3 69.1,12.1 70.7,12.1 72.3,12.1 72.3,12.3 72.5,12.3 72.6,12.4 72.8,12.3 73.0,12.1 73.1,12.1 73.3,12.4 73.4,12.3 75.7,12.4 79.2,12.1 81.4,12.1 83.6,12.1 86.5,12.1 89.1,12.1 91.0,12.3 93.7,12.1 96.0,12.1 99.1,12.1 101.6,12.3 107.2,12.1 109.2,12.1 112.8,12.1 115.5,12.1 118.2,12.1 120.6,12.1 123.6,12.1 126.4,12.1 129.7,12.1 131.5,12.1 134.9,12.1 137.8,12.1 140.4,12.1 142.7,12.1 145.4,12.1 148.4,12.1 151.5,12.1 153.8,12.1 157.0,12.1 159.7,12.1 162.0,12.3 165.4,12.1 168.0,12.1 170.9,12.1 173.2,12.1 176.4,12.1 179.1,12.1 181.6,12.1 183.3,12.1 183.3,12.1 183.3,12.1 183.3,12.1 183.3,12.1 187.1,12.1 190.3,12.1 192.5,12.1 195.7,12.1 198.5,12.1 209.4,12.1 212.5,12.1 215.2,12.1 217.1,12.1 220.5,12.1 223.4,12.1 226.1,12.1 228.9,12.1 231.3,12.1 234.6,12.1 236.9,12.1 239.5,12.1 242.4,12.1 245.4,12.1 248.1,12.1 250.9,12.1 253.5,12.1 256.4,12.1 258.6,12.1 260.5,12.1 261.4,12.1 262.5,12.1 263.4,12.1 264.4,12.1 265.3,12.1 266.2,12.1 267.2,12.1 268.2,12.1 269.1,12.1 269.8,12.1 269.9,12.1 270.0,12.1 270.1,12.1 270.2,12.1 270.3,12.1 270.4,12.1 270.5,12.1 270.6,12.1 270.7,12.1 270.8,12.1 270.9,12.1 271.0,12.1 271.1,12.1 271.2,12.1 271.3,12.1 271.4,12.1 271.5,12.1 271.6,12.1 271.7,12.1 271.8,12.1 271.9,12.1 272.0,12.1 272.1,12.1 272.2,12.1 272.3,12.1 272.4,12.1 272.5,12.1 272.6,12.1 275.7,12.1 278.5,12.1 280.8,12.1 281.0,12.1 281.3,12.1 281.6,12.1 281.9,12.1 282.2,12.1 282.5,12.1 282.8,12.1 283.1,12.1 283.3,12.1 283.6,12.1 283.9,12.1 284.2,12.1 284.5,12.1 284.8,12.1 285.1,12.1 285.3,12.1 285.6,12.1 285.9,12.1 286.2,12.1 286.5,12.1 286.7,12.1 287.0,12.1 287.3,12.1 287.5,12.1 287.9,12.1 288.1,12.1 288.4,12.1 288.7,12.1 289.0,12.1 289.3,12.1 289.5,12.1 289.8,12.1 290.0,12.1 290.3,12.1 290.6,12.1 290.9,12.1 292.0,12.1 292.3,12.1 292.9,12.1 293.5,12.1 294.0,12.1 294.8,12.1 295.9,12.1 296.9,12.1 298.0,12.1 299.0,12.1 300.0,12.1 301.1,12.1 302.1,12.1 303.1,12.1 304.2,12.1 305.2,12.1 306.2,12.1 307.1,12.1 307.7,12.1 308.0,12.1 308.1,12.1 308.2,12.1 308.3,12.1 308.4,12.1 308.5,12.1 308.6,12.1 308.7,12.1 308.8,12.1 308.9,12.1 309.0,12.1 309.1,12.1 309.2,12.1 309.3,12.1 309.4,12.1 309.5,12.1 309.5,12.1 309.6,12.1 309.6,12.1 309.7,12.1 309.8,12.1 309.8,12.1 309.9,12.1 310.0,12.1 310.0,12.1 310.1,12.1 310.2,12.1 310.2,12.1 310.2,12.1 310.2,12.1 310.3,12.1 310.3,12.1 310.4,12.1 310.4,12.1 310.5,12.1 310.6,12.1 310.6,12.1 310.6,12.1 310.7,12.1 310.7,12.1 310.8,12.1 310.8,12.1 310.8,12.1 310.8,12.1 310.9,12.1 310.9,12.1 310.9,12.1 311.0,12.1 311.0,12.1 311.1,12.1 311.1,12.1 311.1,12.1 311.1,12.1 311.1,12.1 311.2,12.1 311.2,12.1 311.3,12.1 311.3,12.1 311.3,12.1 311.3,12.1 311.3,12.1 311.4,12.1 311.4,12.1 311.4,12.1 311.5,12.1 311.5,12.1 311.5,12.1 311.5,12.1 311.5,12.1 311.5,12.1 311.6,12.1 311.6,12.1 311.6,12.1 311.6,12.1 311.6,12.1 311.6,12.1 311.6,12.1 311.6,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.7,12.1 311.8,12.1 311.8,12.1 311.8,12.1 311.8,12.1 311.8,12.1 311.8,12.1 311.8,12.1 311.8,12.1 311.8,12.1 311.8,12.1 311.8,12.1 311.8,12.1 311.8,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 311.9,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1 312.0,12.1" class="linha"/><circle cx="312.0" cy="12.1" r="3.5"/></svg></div><p class="mudo">Última leitura do TSE com sucesso: <b>10:50:49</b> (Brasília). Página gerada às 10:50:49. Ciclo 392.</p><script>
+(function(){var a=document.getElementById("alerta");if(!a)return;
+function t(){var l=a.dataset.leitura,enc=a.dataset.encerrado==="1";
+if(enc){a.hidden=true;return;}
+var idade=l?(Date.now()-Date.parse(l))/1000:Infinity;
+a.hidden=!(idade>Number(a.dataset.limite));}
+t();setInterval(t,5000);})();
+</script></body></html>
